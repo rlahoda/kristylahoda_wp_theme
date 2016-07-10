@@ -1,0 +1,48 @@
+.image__badge__container {
+  width: 100%;
+  // background-color: green;
+  display: none;
+
+  @include respond-at($bp-small) {
+    display: inline;
+  }
+}
+
+.image__container {
+  width: 100%;
+}
+
+.image__badge {
+  max-height: 14em;
+  height: auto;
+  width: auto;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-top: 0;
+
+  @include respond-ht($bph-med) {
+    max-height: 25em;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+}
+
+.image__fronthero {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+}
+
+.image__hero {
+  width: 100%;
+}
+
+.image__hero_interior {
+  max-height: 100px;
+  overflow-y: hidden;
+}

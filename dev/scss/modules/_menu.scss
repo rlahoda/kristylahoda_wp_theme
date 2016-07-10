@@ -1,0 +1,125 @@
+.c_nav {
+  // text-align: center;
+  // line-height: 1;
+  // font-size: 1em;
+  // background-color: rgba(0, 0, 255, 0.3);
+  list-style-type: none;
+  // background-color: rgba(255, 255, 255, 0.8);
+
+  // @include respond-at($bp-small) {
+  //
+  //   // @include respond-ht(900px) {
+  //   //   line-height: 1.5;
+  //   // }
+  //
+  //   @include respond-ht($bph-med) {
+  //     line-height: 2;
+  //     font-size: 1.125em;
+  //   }
+  // }
+}
+
+ul.nav {
+  text-align: center;
+  line-height: 1;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  // line-height: 2;
+  // font-size: 1em;
+  // background-color: rgba(255, 0, 255, 0.5);
+  list-style-type: none;
+
+  @include respond-at($bp-small) {
+    margin-top: 10vh;
+    // @include respond-ht(900px) {
+    //   line-height: 1.5;
+    // }
+
+    @include respond-ht($bph-med) {
+      line-height: 2;
+      margin-top: 20vh;
+      font-size: 1.125em;
+    }
+  }
+
+  @include respond-at($bp-small) {
+    @include respond-ht($bph-med) {
+      line-height: 2;
+      font-size: 1.125em;
+    }
+  }
+}
+
+.menu-item {
+  // line-height: 1;
+  font-size: 1em;
+  line-height: 2;
+  padding-bottom: 15px;
+  width: 100%;
+  border-width: 0 0 1px;
+  // background-color: blue;
+  border-color: $gray_40;
+  // border-style: solid;
+
+  @include respond-at($bp-small) {
+    // background-image: url('/assets/img/wc-swipe-menu.png');
+    // background-size: 100% 100%;
+    // width: auto;
+    // color: white;
+    // background-repeat: no-repeat;
+    // padding: 5px;
+    border-style: none;
+    // @include respond-ht(900px) {
+    //   line-height: 1.5;
+    // }
+    // background-color: orange;
+
+    @include respond-ht($bph-med) {
+      line-height: 2;
+      font-size: 1.125em;
+    }
+  }
+
+  @include respond-at($bp-small) {
+
+    li::after {
+      width: 100%;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 2px solid black;
+      // background-color: pink;
+      content: "";
+    }
+    // @include respond-ht(900px) {
+    //   line-height: 1.5;
+    // }
+
+    @include respond-ht($bph-med) {
+      line-height: 2;
+      font-size: 1.125em;
+    }
+  }
+}
+
+.nav_menu_button {
+  text-align: left;
+  margin-left: 30px;
+  font-size: 1em;
+  // text-decoration: underline;
+  @include respond-at($bp-small) {
+    display: none;
+  }
+
+  &::after {
+    @include sprite(downarrow);
+    content: "";
+    margin: 0 5px;
+  }
+}
+
+.current-menu-item::before {
+  margin-right: 5px;
+  content: url("../prod/assets/img/wc-green-dot.png");
+}

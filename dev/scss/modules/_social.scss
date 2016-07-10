@@ -1,0 +1,27 @@
+.social__container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  @include respond-at($bp-small) {
+    justify-content: space-around;
+  }
+}
+
+.social {
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+  &:hover {
+    opacity: 75%;
+  }
+}
+
+.social__facebook {
+  // @include sprite(facebook);
+}
+
+.social__twitter {
+  // @include sprite(twitter);
+}

@@ -1,0 +1,131 @@
+.c_menu__widget {
+  width: 100%;
+  // background-color: pink;
+}
+
+.c_signup {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  overflow-x: visible;
+  color: white;
+}
+
+.subscribe2 {
+  width: 200px;
+  // background-color: blue;
+  margin-bottom: 10px;
+  background-image: url("../prod/assets/img/wc-swipe-search.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 13px 0;
+
+  @include respond-at($bp-small) {
+    // width: 250px;
+  }
+}
+
+.c_signup > h4 {
+  text-align: center;
+}
+
+.subscribe2 > form > p {
+  line-height: 1;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe2 > form > p > input[type=text] {
+  border-style: none;
+  width: 120px;
+  margin-left: 15px;
+}
+
+.subscribe2 > form > p > label {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.subscribe2 > form > p > br {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.subscribe2 > form > p > input[type=submit] {
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  margin-left: 0;
+  padding: 5px;
+
+  &:hover {
+    font-weight: bold;
+  }
+  &:active {
+    color: $accent2-20l;
+  }
+}
+
+.s2_message {
+  color: white;
+}
+
+
+// .s2_form_widget {
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 200px;
+//   overflow-x: visible;
+//   background-color: pink;
+// }
+//
+// .c_signup {
+//   // background-color: $accent-clr;
+//   width: 250px;
+//   margin-bottom: 10px;
+//   background-image: url('/assets/img/wc-swipe-search.png');
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   // height: 3em;
+//   color: white;
+//   margin-left: auto;
+//   margin-right: auto;
+//   text-align: center;
+//
+//   & > form {
+//     // background-image: url('/assets/img/wc-swipe-search.png');
+//     background-size: 100% 100%;
+//     background-repeat: no-repeat;
+//     font-size: 0.8em;
+//   }
+// }
+//
+// #s2email {
+//   // border-color: transparent;
+//   // background-color: white;
+//   width: 120px;
+//   margin-left: 15px;
+//   border-style: none;
+// }
+//
+// .c_signup > form > p > input[type=submit] {
+//   border-style: none;
+//   background-color: transparent;
+//   // background-image: url('/assets/img/wc-button-dot.png');
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding-bottom: 20px;
+//   color: white;
+//   &:hover {
+//     background-color: $base-20l;
+//   }
+//   &:active {
+//     background-color: $base-60l;
+//   }
+// }

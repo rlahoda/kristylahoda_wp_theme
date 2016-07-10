@@ -1,0 +1,52 @@
+!!! 5
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}
+    %title Perfectly Imperfect | Kristy Lahoda
+    %meta{content: "content", name: "Keywords"}
+    %meta{content: "description of page", content: "Description"}
+    %link{href: "css/styles.css", rel: "stylesheet"}/
+    <script src="https://use.typekit.net/kid0kei.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  %body
+    #primarynav
+      %ul
+        %li
+          %h3
+            %a{href: "index.html"} Home
+        %li
+          %h3
+            %a{href: "about.html"} About Me
+        %li
+          %h3
+            %a{href: "blogpostlisting.html"} Blog
+        %li
+          %h3
+            %a{href: "resources.html"} Resources
+        %li
+          %h3 Stay Connected
+        %li
+          .search
+            %input.search--input
+            %button.search--button Search
+    #container
+      %header
+        %h1.text-center
+          %a{href: "index.html"} Perfectly Imperfect
+        %h3.text-center Kristy Lahoda
+        .fronthero
+          %img.hero{src: "assets/img/hero.jpg"}
+
+      #article
+        .blog
+          %header
+            %h2.text-center Latest Updates
+          %main
+            %h3.text-center
+              %a{href: "blogpost.html"} Christian Resiliency in the Face of Anorexia Recovery
+            %p
+              %a{href: "blogpost.html"} I promised to post about my January doctor’s appointment in a recent post. So in order to give you a picture of what’s really behind my skin, I’ll try to be as honest as possible.
+
+
+      %footer

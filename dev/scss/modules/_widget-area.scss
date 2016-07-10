@@ -1,0 +1,40 @@
+.widget__sidebar {
+  margin-bottom: 1rem;
+  margin-right: 40px;
+  list-style-type: none;
+  line-height: 1.25;
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  li {
+    line-height: 2;
+  }
+  width: 40%;
+
+  @include respond-at($bp-small) {
+    width: 100%;
+  }
+  &::after {
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin-top: 20px;
+    // background-color: pink;
+    content: url('../prod/assets/img/wc-swipe-long_c.png');
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.widget-last {
+  // background-color: blue;
+  &::after {
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin-top: 20px;
+    // background-color: pink;
+    content: "";
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

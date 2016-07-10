@@ -1,0 +1,64 @@
+// Begin colors
+
+$base-clr: #693a08;
+$base-20l: (lighten($base-clr, 20%));
+$base-40l: (lighten($base-clr, 40%));
+$base-60l: (lighten($base-clr, 60%));
+$base-20d: (darken($base-clr, 20%));
+$base-40d: (darken($base-clr, 40%));
+
+$accent-clr: #3981c5;
+$accent-10l: (lighten($accent-clr, 10%));
+$accent-20l: (lighten($accent-clr, 20%));
+$accent-30l: (lighten($accent-clr, 30%));
+$accent-35l: (lighten($accent-clr, 35%));
+$accent-45l: (lighten($accent-clr, 45%));
+$accent-20d: (darken($accent-clr, 20%));
+$accent-40d: (darken($accent-clr, 40%));
+$accent-60d: (darken($accent-clr, 60%));
+
+$accent2-clr: #549e6a;
+$accent2-10l: (lighten($accent2-clr, 10%));
+$accent2-20l: (lighten($accent2-clr, 20%));
+$accent2-30l: (lighten($accent2-clr, 35%));
+$accent2-35l: (lighten($accent2-clr, 45%));
+$accent2-20d: (darken($accent2-clr, 20%));
+$accent2-40d: (darken($accent2-clr, 40%));
+$accent2-40d: (darken($accent2-clr, 60%));
+
+$gray_40: #666;
+$gray_75: hsl(0, 0%, 25%);
+// $gray_60:
+
+// Feedback colors
+//
+// $success: green;
+// $warning: yellow;
+// $error: red;
+// $informational: blue;
+// $alert: red;
+//
+// $colors-buttons:
+//   "base-clr" $base-clr $base-20l,
+//   "base-20l" $base-20l $base-clr,
+//   "base-20d" $base-20d $base-clr,
+//   "accent-clr" $accent-clr $accent-20l,
+//   "accent-20l" $accent-20l $accent-clr,
+//   "accent-20d" $accent-20d $accent-clr;
+//
+// @each $i in $colors-buttons {
+//   .#{nth($i, 1)}-bkg {
+//     background-color: nth($i, 2);
+//     border-color: nth($i, 2);
+//   }
+//   // .#{nth($i, 1)}-clr {
+//   //   color:nth($i, 2);
+//   // }
+//   // .#{nth($i, 1)}-bdr {
+//   //   border-color: nth($i, 2);
+//   // }
+//   button.#{nth($i, 1)}-bkg:hover {
+//     background-color: nth($i, 3);
+//     // opacity: 0.5;
+//   }
+// }

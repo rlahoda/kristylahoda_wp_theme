@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="A demo of how to use gulp-twig"/>
+    <link href="css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <script src="https://use.typekit.net/kid0kei.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("a#nav_button").click(function(){
+          $("div.l_nav_container").slideToggle(500);
+        });
+      });
+</script>
+
+    <title>Perfectly Imperfect | Kristy Lahoda</title>
+
+</head>
+<body>
+
+  <div class="l_sidebar_left">
+    <div class="c_nav">
+    <div class="nav_button_container">
+        <a id="nav_button" href="#">
+            <h2 class="nav_menu_button">Menu</h2>
+        </a>
+    </div>
+    <div class="l_nav_container">
+        <ul id="menu-menu-1" class="nav sf-js-enabled">
+            <li id="menu-item-46" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-46">
+                <a href="index.html">Home</a>
+            </li>
+            <li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">
+                <a href="about.html">About Kristy</a>
+            </li>
+            <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
+                <a href="resources.html">Resources</a>
+            </li>
+            <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
+                <a href="blogpostlisting.html">Blog!</a>
+            </li>
+        </ul>
+        <div class="c_search__container">
+            <div class="c_search__fit">
+                <div class="c_search__box">
+                    <input class="c_search__input"/><button class="c_search__button">Search</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="social__container">
+        <a class="social social__twitter" href="https://twitter.com/KristyLahoda"><img src="assets/img/wc-social-twitter.png" alt="twitter"/></a>
+        <a class="social social__facebook" href="https://www.facebook.com/kristylahoda"><img src="assets/img/wc-social-facebook.png" alt="facebook"/></a>
+    </div>
+    <div id="s2_form_widget-2" class="f_widget s2_form_widget">
+      <h4 class="widgettitle">Sign up to recieve email updates!</h4>
+      <div class="c_signup">
+        <form method="post" action="http://www.kristylahoda.net/subscribe-for-updates/"><input type="hidden" name="ip" value="74.135.65.104"/>
+            <span style="display:none !important">
+                <label for="name">Leave Blank:</label><input type="text" id="name" name="name"/>
+                <label for="uri">Do Not Change:</label><input type="text" id="uri" name="uri" value="http://"/></span>
+            <p>
+                <label for="s2email">Your email:</label><br/><input type="text" name="email" id="s2email" value="Enter email address..." size="20" onfocus="if (this.value == 'Enter email address...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email address...';}"/></p>
+            <p><input type="submit" name="subscribe" value="Subscribe"/></p>
+        </form>
+    </div>
+
+</div>
+</div>
+  </div>
+
+<div class="l_container">
+  <div class="l_fullwidth">
+<!-- <div class="c_signup__container">
+    <input class="c_signup__input" /><button class="c_signup__button">Sign up to receive e-mail updates</button>
+</div> -->
+</div>
+    <header>
+    <h1 class="text-center"><a href="index.html">Perfectly Imperfect</a></h1>
+<h3 class="text-center">Kristy Lahoda</h3>
+<div class="image__container"><img class="image__fronthero" src="assets/img/wc-hope-banner.png" class="hero" /></div>
+</header>
+<div class="l_article">
+    <header>
+        <h2 class="text-center">Latest Updates</h2></header>
+    <ul class="l-grid">
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header"><a href="post.html">Christian Resiliency in the Face of Anorexia Recovery</a></h3>
+            <p><a href="blogpost.html">I promised to post about my January doctor’s appointment in a recent post. So in order to give you a picture of what’s really behind my skin, I’ll try to be as honest as possible.</a></p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">Let’s Talk About the Heart</h3>
+            <p>Let’s talk about what’s on the inside versus outside of a person. I have a few things on my heart today. The first is my sister-in-law and her family who lost their brother/son in an accident a year ago today. I didn’t know him well,
+                but I love his sister and his parents. They’ve been family for a long time. They’re good people, and they neither deserve nor want to be on the journey they’re on.</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">Martin Luther King Jr.’s Dream Lives On: We Can be Models of Christ’s Love Too</h3>
+            <p>I’d planned on posting something different for this next post, but I just dropped my youngest off at preschool, and the parents of my son’s classmate had printed off a poem I just had to share below.</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">National Eating Disorders Awareness Week</h3>
+            <p>This week is National Eating Disorders Awareness week. Did you know that of all mental health issues, anorexia has the number one mortality rate? NEDA (National Eating Disorders Association) says, “3 minutes can save a life.”</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">When Your Physical Shape Returns, People Expect You to be Well, but That’s Not Always How Anorexia Works</h3>
+            <p>Beginning the week before Christmas week, I started struggling again. I didn’t want to post because I didn’t want to be vulnerable. The truth is, recovery is hell.</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">What Does it Mean To Be Made in the Image of Christ?</h3>
+            <p>I read an amazing book for my Vineyard Institute Biblical Metanarrative class called The Biblical Metanarrative: One God, One Plan, One Story by my late professor, Bill Jackson. Near the end, he includes a long, anonymous quote which
+                just takes my breath away. It’s about what it means to be made into the image of Christ. As you will see, this takes death to self, spiritually speaking. Before you read this, ask yourself if you live for yourself or for God or
+                both.</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header"><a href="blogpost.html">Christian Resiliency in the Face of Anorexia Recovery</a></h3>
+            <p><a href="blogpost.html">I promised to post about my January doctor’s appointment in a recent post. So in order to give you a picture of what’s really behind my skin, I’ll try to be as honest as possible.</a></p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">Let’s Talk About the Heart</h3>
+            <p>Let’s talk about what’s on the inside versus outside of a person. I have a few things on my heart today. The first is my sister-in-law and her family who lost their brother/son in an accident a year ago today. I didn’t know him well,
+                but I love his sister and his parents. They’ve been family for a long time. They’re good people, and they neither deserve nor want to be on the journey they’re on.</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">Martin Luther King Jr.’s Dream Lives On: We Can be Models of Christ’s Love Too</h3>
+            <p>I’d planned on posting something different for this next post, but I just dropped my youngest off at preschool, and the parents of my son’s classmate had printed off a poem I just had to share below.</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">National Eating Disorders Awareness Week</h3>
+            <p>This week is National Eating Disorders Awareness week. Did you know that of all mental health issues, anorexia has the number one mortality rate? NEDA (National Eating Disorders Association) says, “3 minutes can save a life.”</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">When Your Physical Shape Returns, People Expect You to be Well, but That’s Not Always How Anorexia Works</h3>
+            <p>Beginning the week before Christmas week, I started struggling again. I didn’t want to post because I didn’t want to be vulnerable. The truth is, recovery is hell.</p>
+        </li>
+        <li class="card__small card__small_border">
+            <h3 class="card__small__header">What Does it Mean To Be Made in the Image of Christ?</h3>
+            <p>I read an amazing book for my Vineyard Institute Biblical Metanarrative class called The Biblical Metanarrative: One God, One Plan, One Story by my late professor, Bill Jackson. Near the end, he includes a long, anonymous quote which
+                just takes my breath away. It’s about what it means to be made into the image of Christ. As you will see, this takes death to self, spiritually speaking. Before you read this, ask yourself if you live for yourself or for God or
+                both.</p>
+        </li>
+    </ul>
+</div>
+<div class="l_sidebar__right text-center">
+
+    <div class="widget__sidebar">
+    <div id="archives-2" class="f_widget widget_archive">
+        <h4 class="widgettitle">Archives</h4>
+        <ul>
+    </div>
+    <li><a href='http://www.kristylahoda.net/2016/03/'>March 2016</a>&nbsp;(2)</li>
+    <li><a href='http://www.kristylahoda.net/2016/02/'>February 2016</a>&nbsp;(5)</li>
+    <li><a href='http://www.kristylahoda.net/2016/01/'>January 2016</a>&nbsp;(1)</li>
+    <li><a href='http://www.kristylahoda.net/2015/11/'>November 2015</a>&nbsp;(1)</li>
+    <li><a href='http://www.kristylahoda.net/2015/09/'>September 2015</a>&nbsp;(1)</li>
+    <li><a href='http://www.kristylahoda.net/2015/08/'>August 2015</a>&nbsp;(1)</li>
+    <li><a href='http://www.kristylahoda.net/2015/06/'>June 2015</a>&nbsp;(1)</li>
+    <li><a href='http://www.kristylahoda.net/2015/05/'>May 2015</a>&nbsp;(2)</li>
+    <li><a href='http://www.kristylahoda.net/2015/04/'>April 2015</a>&nbsp;(1)</li>
+    <li><a href='http://www.kristylahoda.net/2015/03/'>March 2015</a>&nbsp;(2)</li>
+    <li><a href='http://www.kristylahoda.net/2015/02/'>February 2015</a>&nbsp;(3)</li>
+    <li><a href='http://www.kristylahoda.net/2015/01/'>January 2015</a>&nbsp;(1)</li>
+    <li><a href='http://www.kristylahoda.net/2014/11/'>November 2014</a>&nbsp;(1)</li>
+    <li><a href='http://www.kristylahoda.net/2014/10/'>October 2014</a>&nbsp;(3)</li>
+    <li><a href='http://www.kristylahoda.net/2014/09/'>September 2014</a>&nbsp;(2)</li>
+    <li><a href='http://www.kristylahoda.net/2014/08/'>August 2014</a>&nbsp;(4)</li>
+    <li><a href='http://www.kristylahoda.net/2014/06/'>June 2014</a>&nbsp;(4)</li>
+    <li><a href='http://www.kristylahoda.net/2014/05/'>May 2014</a>&nbsp;(4)</li>
+    <li><a href='http://www.kristylahoda.net/2014/04/'>April 2014</a>&nbsp;(3)</li>
+    </ul>
+    <aside id="archives-2" class="widget blog-categories widget_archive"><h2 class="widget-title">Archives</h2>		<label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
+		<select id="archives-dropdown-2" name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+
+			<option value="">Select Month</option>
+				<option value='http://roblahoda.com/2016/05/'> May 2016 &nbsp;(3)</option>
+	<option value='http://roblahoda.com/2016/04/'> April 2016 &nbsp;(3)</option>
+	<option value='http://roblahoda.com/2016/03/'> March 2016 &nbsp;(19)</option>
+
+		</select>
+		</aside>
+</div>
+<div class="widget__sidebar">
+
+    <div class="tagcloud"> <a href="http://www.kristylahoda.net/tag/adam-and-eve/" class="tag-link-22" title="1 topic" style="font-size: 8pt;">Adam and Eve</a> <a href="http://www.kristylahoda.net/tag/addiction/" class="tag-link-18" title="4 topics" style="font-size: 13.490196078431pt;">addiction</a>                    <a href="http://www.kristylahoda.net/tag/advertising/" class="tag-link-4" title="6 topics" style="font-size: 15.549019607843pt;">advertising</a> <a href="http://www.kristylahoda.net/tag/attractive/" class="tag-link-33" title="1 topic"
+            style="font-size: 8pt;">attractive</a> <a href="http://www.kristylahoda.net/tag/attractiveness/" class="tag-link-34" title="6 topics" style="font-size: 15.549019607843pt;">attractiveness</a> <a href="http://www.kristylahoda.net/tag/beauty-of-diversity/"
+            class="tag-link-21" title="4 topics" style="font-size: 13.490196078431pt;">beauty of diversity</a> <a href="http://www.kristylahoda.net/tag/body-image/" class="tag-link-28" title="14 topics" style="font-size: 20.078431372549pt;">body image</a>                    <a href="http://www.kristylahoda.net/tag/children/" class="tag-link-39" title="2 topics" style="font-size: 10.470588235294pt;">children</a> <a href="http://www.kristylahoda.net/tag/christian-counseling/" class="tag-link-12" title="2 topics"
+            style="font-size: 10.470588235294pt;">Christian counseling</a> <a href="http://www.kristylahoda.net/tag/disordered-eating/" class="tag-link-41" title="1 topic" style="font-size: 8pt;">disordered eating</a> <a href="http://www.kristylahoda.net/tag/eating-disorder/"
+            class="tag-link-11" title="15 topics" style="font-size: 20.352941176471pt;">eating disorder</a> <a href="http://www.kristylahoda.net/tag/emasculate/" class="tag-link-43" title="1 topic" style="font-size: 8pt;">emasculate</a> <a href="http://www.kristylahoda.net/tag/false-identity/"
+            class="tag-link-35" title="3 topics" style="font-size: 12.117647058824pt;">false identity</a> <a href="http://www.kristylahoda.net/tag/false-intimacy/" class="tag-link-45" title="2 topics" style="font-size: 10.470588235294pt;">false intimacy</a>                    <a href="http://www.kristylahoda.net/tag/fashion/" class="tag-link-3" title="1 topic" style="font-size: 8pt;">fashion</a> <a href="http://www.kristylahoda.net/tag/fashion-industry/" class="tag-link-29" title="1 topic" style="font-size: 8pt;">fashion industry</a>                    <a href="http://www.kristylahoda.net/tag/freedom/" class="tag-link-15" title="20 topics" style="font-size: 22pt;">freedom</a> <a href="http://www.kristylahoda.net/tag/god/" class="tag-link-14" title="2 topics" style="font-size: 10.470588235294pt;">God</a>                    <a href="http://www.kristylahoda.net/tag/gods-child/" class="tag-link-48" title="4 topics" style="font-size: 13.490196078431pt;">God's child</a> <a href="http://www.kristylahoda.net/tag/gods-handiwork/" class="tag-link-20" title="9 topics"
+            style="font-size: 17.607843137255pt;">God's handiwork</a> <a href="http://www.kristylahoda.net/tag/gods-image-2/" class="tag-link-6" title="10 topics" style="font-size: 18.156862745098pt;">God's image</a> <a href="http://www.kristylahoda.net/tag/gods-love/"
+            class="tag-link-51" title="15 topics" style="font-size: 20.352941176471pt;">God's love</a> <a href="http://www.kristylahoda.net/tag/gods-view/" class="tag-link-49" title="1 topic" style="font-size: 8pt;">God's view</a> <a href="http://www.kristylahoda.net/tag/good-enough/"
+            class="tag-link-24" title="3 topics" style="font-size: 12.117647058824pt;">good enough</a> <a href="http://www.kristylahoda.net/tag/healing/" class="tag-link-9" title="16 topics" style="font-size: 20.764705882353pt;">healing</a>
+        <a
+            href="http://www.kristylahoda.net/tag/hope/" class="tag-link-10" title="15 topics" style="font-size: 20.352941176471pt;">hope</a> <a href="http://www.kristylahoda.net/tag/hourglass-shape/" class="tag-link-19" title="1 topic" style="font-size: 8pt;">hourglass shape</a> <a href="http://www.kristylahoda.net/tag/hyper-masculinity/" class="tag-link-42" title="1 topic"
+                style="font-size: 8pt;">hyper-masculinity</a> <a href="http://www.kristylahoda.net/tag/jean-kilbourne/" class="tag-link-37" title="1 topic" style="font-size: 8pt;">Jean Kilbourne</a> <a href="http://www.kristylahoda.net/tag/ministry/"
+                class="tag-link-17" title="2 topics" style="font-size: 10.470588235294pt;">ministry</a> <a href="http://www.kristylahoda.net/tag/objectification/" class="tag-link-46" title="1 topic" style="font-size: 8pt;">objectification</a>                        <a href="http://www.kristylahoda.net/tag/photoshop/" class="tag-link-27" title="1 topic" style="font-size: 8pt;">Photoshop</a> <a href="http://www.kristylahoda.net/tag/porn/" class="tag-link-44" title="2 topics" style="font-size: 10.470588235294pt;">porn</a>                        <a href="http://www.kristylahoda.net/tag/porn-industry/" class="tag-link-47" title="2 topics" style="font-size: 10.470588235294pt;">porn industry</a> <a href="http://www.kristylahoda.net/tag/recovering/" class="tag-link-16" title="12 topics"
+                style="font-size: 19.117647058824pt;">recovering</a> <a href="http://www.kristylahoda.net/tag/redeeming-love/" class="tag-link-13" title="11 topics" style="font-size: 18.705882352941pt;">redeeming love</a> <a href="http://www.kristylahoda.net/tag/self-esteem/"
+                class="tag-link-36" title="4 topics" style="font-size: 13.490196078431pt;">self-esteem</a> <a href="http://www.kristylahoda.net/tag/self-image/" class="tag-link-5" title="7 topics" style="font-size: 16.235294117647pt;">self image</a>                        <a href="http://www.kristylahoda.net/tag/sensory/" class="tag-link-26" title="1 topic" style="font-size: 8pt;">sensory</a> <a href="http://www.kristylahoda.net/tag/sex-appeal/" class="tag-link-31" title="2 topics" style="font-size: 10.470588235294pt;">sex appeal</a>                        <a href="http://www.kristylahoda.net/tag/sexiness/" class="tag-link-30" title="2 topics" style="font-size: 10.470588235294pt;">sexiness</a> <a href="http://www.kristylahoda.net/tag/sexualization/" class="tag-link-40" title="3 topics"
+                style="font-size: 12.117647058824pt;">sexualization</a> <a href="http://www.kristylahoda.net/tag/shame/" class="tag-link-23" title="8 topics" style="font-size: 16.921568627451pt;">shame</a> <a href="http://www.kristylahoda.net/tag/truth-in-advertising-act/"
+                class="tag-link-32" title="1 topic" style="font-size: 8pt;">Truth in Advertising Act</a> <a href="http://www.kristylahoda.net/tag/waif/" class="tag-link-25" title="2 topics" style="font-size: 10.470588235294pt;">waif</a></div>
+</div>
+
+</div>
+</div>
+</body>
+<footer>
+<div class="l_fullwidth">
+<!-- <div class="c_signup__container">
+    <input class="c_signup__input" /><button class="c_signup__button">Sign up to receive e-mail updates</button>
+</div> -->
+</div>
+</footer>
+</html>

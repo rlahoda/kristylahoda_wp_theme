@@ -1,0 +1,22 @@
+body {
+  background-color: #fffef9;
+  background-image: url("../prod/assets/img/wc-tree-roots.png"), url("../prod/assets/img/bg.jpg");
+  background-size: 25%, cover;
+  background-position: left 0;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  padding: 5px;
+
+  @include respond-at($bp-small) {
+    padding: 0;
+    background-size: auto, cover;
+
+    @include respond-ht($bph-med) {
+      background-position: left top;
+    }
+  }
+}
+
+#comment {
+  max-width: 75%;
+}

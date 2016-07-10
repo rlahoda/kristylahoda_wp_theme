@@ -1,0 +1,86 @@
+$icons: (
+      sprite: (width: 192px, height: 178px, pngPath: "../prod/assets/img/sprite.png", svgPath: "../prod/assets/img/sprite.svg"),
+    downarrow: (width: 9px, height: 8px, backgroundX: 0px, backgroundY: 0px),
+    external: (width: 14.989999999999998px, height: 12.850000000000001px, backgroundX: -19px, backgroundY: -18px),
+    facebook: (width: 10px, height: 22px, backgroundX: -44px, backgroundY: -41px),
+    link: (width: 15px, height: 12.86px, backgroundX: -64px, backgroundY: -73px),
+    twitter: (width: 32px, height: 22px, backgroundX: -89px, backgroundY: -96px),
+    twitterHover: (width: 32px, height: 22px, backgroundX: -131px, backgroundY: -128px),
+    uparrow: (width: 9px, height: 8px, backgroundX: -173px, backgroundY: -160px),
+);
+
+// .svg-common {
+// 	background: url("assets/img/sprite.svg") no-repeat;
+// }
+//
+// .svg-downarrow {
+// 	@extend .svg-common;
+// 	background-position: 0 0;
+// }
+//
+// .svg-downarrow-dims {
+// 	width: 19px;
+// 	height: 18px;
+// }
+//
+// .svg-external {
+// 	@extend .svg-common;
+// 	background-position: 11.37656427758817% 11.601675797615211%;
+// }
+//
+// .svg-external-dims {
+// 	width: 24.99px;
+// 	height: 22.85px;
+// }
+//
+// .svg-facebook {
+// 	@extend .svg-common;
+// 	background-position: 25.58139534883721% 28.08219178082192%;
+// }
+//
+// .svg-facebook-dims {
+// 	width: 20px;
+// 	height: 32px;
+// }
+//
+// .svg-link {
+// 	@extend .svg-common;
+// 	background-position: 38.32335329341317% 47.05427355936574%;
+// }
+//
+// .svg-link-dims {
+// 	width: 25px;
+// 	height: 22.86px;
+// }
+//
+// .svg-twitter {
+// 	@extend .svg-common;
+// 	background-position: 59.333333333333336% 65.75342465753425%;
+// }
+//
+// .svg-twitter-dims {
+// 	width: 42px;
+// 	height: 32px;
+// }
+//
+// .svg-twitterHover {
+// 	@extend .svg-common;
+// 	background-position: 87.33333333333333% 87.67123287671232%;
+// }
+//
+// .svg-twitterHover-dims {
+// 	width: 42px;
+// 	height: 32px;
+// }
+//
+// .svg-uparrow {
+// 	@extend .svg-common;
+// 	background-position: 100% 100%;
+// }
+//
+// .svg-uparrow-dims {
+// 	width: 19px;
+// 	height: 18px;
+// }
+//
+// 

@@ -1,0 +1,7 @@
+.post-content {
+  margin: 10px;
+
+  @include respond-at($bp-xsmall) {
+    margin: 20px;
+  }
+}

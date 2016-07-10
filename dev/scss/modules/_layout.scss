@@ -1,0 +1,115 @@
+.l_container {
+  float: none;
+  width: 100%;
+  // background-color: purple;
+
+  @include respond-at($bp-small) {
+    float: right;
+    width: 76%;
+  }
+
+  @include respond-at($bp-med) {
+    width: 79%;
+  }
+
+  @include respond-at($bp-large) {
+    width: 84%;
+  }
+  // background-color: pink;
+}
+
+.l_article {
+  // background-color: orange;
+  width: 100%;
+  float: none;
+
+  @include respond-at($bp-small) {
+    float: left;
+    width: 73%;
+  }
+}
+
+.l_sidebar__right {
+  float: right;
+  // background-color: blue;
+  width: 100%;
+  // margin-top: 1vh;
+  // padding-right: 20px;
+  min-width: 220px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  @include respond-at($bp-small) {
+    width: 25%;
+  }
+}
+
+.l_sidebar_left {
+  margin-top: 0;
+  width: 100%;
+  // background-color: rgba(255, 0, 0, 0.3);
+  // margin: 0;
+  @include respond-at($bp-small) {
+    height: 30px;
+    width: 20%;
+    position: fixed;
+    height: 100vh;
+
+    @include respond-ht($bph-small) {
+      // margin-top: 25vh;
+    }
+
+    @include respond-ht($bph-med) {
+      // margin-top: 15vh;
+    }
+  }
+
+  @include respond-at($bp-med) {
+    width: 20%;
+  }
+
+  @include respond-at($bp-large) {
+    position: fixed;
+    width: 15%;
+    // background-color: blue;
+  }
+
+}
+
+.l_nav_container {
+  display: none;
+
+  @include respond-at($bp-small) {
+    display: inline;
+  }
+}
+
+.l_footer {
+  width: 100%;
+  background: $accent-35l;
+  min-height: 80px;
+  // padding: 10px;
+}
+
+.l_footer__block-centered {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+  max-width: 80%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+  padding: 20px;
+  // background-color: blue;
+}
+
+.nav-links > .current {
+  color: $accent2-clr;
+  text-decoration: underline;
+}
+
+.more-link {
+  color: $accent-clr;
+  text-decoration: underline;
+}
